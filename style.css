@@ -11,12 +11,19 @@ body {
     background-color: #fff;
     font-family: 'Work Sans', sans-serif;
   }
-  
+
   img{
       width:100%;
       height:auto;
     }
 
+@media screen {
+  .zine-grid {
+      margin: 5vw auto;
+      max-width: 800px;
+      padding:2em;
+    }
+}
 
 
 @media print {
@@ -65,6 +72,10 @@ body {
     max-width: 2.7in;
     overflow: hidden;
     box-sizing: border-box;
+  }
+
+  .full-article {
+    display: none;
   }
 
   .z-front-cover {
